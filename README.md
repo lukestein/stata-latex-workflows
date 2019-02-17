@@ -27,7 +27,7 @@ Install manually from github page. Requires Python.
 
 **Stata commands to generate tex files using tex code included in a do file**
 
-Install using `ssc install texdoc, replace'.
+Install using `ssc install texdoc, replace`.
 
 [Package page](http://repec.sowi.unibe.ch/stata/texdoc/)
 
@@ -36,12 +36,10 @@ Install using `ssc install texdoc, replace'.
 ## Other manual methods
 
 - [Damon Jones](https://twitter.com/nomadj1s/status/1051112991393964032) (now deprecated in favor of texdoc?)
-<!---
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">💾Stata Tutorial💾<br><br>In case it’s useful, here’s a way to write LaTeX table code within Stata and export to .tex<br><br>I learned this from <a href="https://twitter.com/sacksdaniel?ref_src=twsrc%5Etfw">@sacksdaniel</a><br><br>\begin{🤓}</p>&mdash; Damon Jones (@nomadj1s) <a href="https://twitter.com/nomadj1s/status/1051112991393964032?ref_src=twsrc%5Etfw">October 13, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
---->
 - [Paul Goldsmith-Pinkham](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f)
 <!---
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I do the same as <a href="https://twitter.com/nomadj1s?ref_src=twsrc%5Etfw">@nomadj1s</a> , Scott (for most tables). Here&#39;s an example gist of how I do it (slightly different, although I like <a href="https://twitter.com/nomadj1s?ref_src=twsrc%5Etfw">@nomadj1s</a> &#39;s workflow of saving the coefficients: <a href="https://t.co/U0lvZnM2BQ">https://t.co/U0lvZnM2BQ</a></p>&mdash; Paul Goldsmith-Pinkham (@paulgp) <a href="https://twitter.com/paulgp/status/1051132485050949633?ref_src=twsrc%5Etfw">October 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">💾Stata Tutorial💾<br><br>In case it’s useful, here’s a way to write LaTeX table code within Stata and export to .tex<br><br>I learned this from <a href="https://twitter.com/sacksdaniel?ref_src=twsrc%5Etfw">@sacksdaniel</a><br><br>\begin{🤓}</p>&mdash; Damon Jones (@nomadj1s) <a href="https://twitter.com/nomadj1s/status/1051112991393964032?ref_src=twsrc%5Etfw">October 13, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 --->
