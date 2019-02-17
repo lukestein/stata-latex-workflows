@@ -2,7 +2,7 @@
 
 **Stata commands to output tex files (or csv or word) with formatted tables, with customization via Stata command options**
 
-Install using `ssc install estout, replace`.
+Install using `ssc install estout, replace`
 
 [Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
@@ -12,7 +12,7 @@ Install using `ssc install estout, replace`.
 
 **Stata commands to save values to specially-formatted external file, and then to replace saved values in manually created (external) tex file**
 
-Install manually from github page. Requires Python.
+Install manually from github page (requires Python)
 
 - [Package page](https://github.com/paulnov/stata-tex)
 - [Explanatory Twitter thread](https://twitter.com/paulnovosad/status/1056922582795075584) by [Paul Novosad](http://www.dartmouth.edu/~novosad/)
@@ -27,7 +27,7 @@ Install manually from github page. Requires Python.
 
 **Stata commands to generate tex files using tex code included in a do file**
 
-Install using `ssc install texdoc, replace`.
+Install using `ssc install texdoc, replace`
 
 [Package page](http://repec.sowi.unibe.ch/stata/texdoc/)
 
