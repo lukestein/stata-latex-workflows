@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## estout (and esttab)
 
-You can use the [editor on GitHub](https://github.com/lukestein/stata-latex-workflows/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## stata-tex
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Package page](https://github.com/paulnov/stata-tex)
 
-```markdown
-Syntax highlighted code block
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We have a fabulous way to write .tex tables from Stata. It&#39;s like <a href="https://twitter.com/nomadj1s?ref_src=twsrc%5Etfw">@nomadj1s</a>&#39;s in spirit, but we think it&#39;s cleaner and easier. Download our stata-tex package at <a href="https://t.co/llhQCBYojY">https://t.co/llhQCBYojY</a>. Here&#39;s how it works 👇🏽</p>&mdash; Paul Novosad (@paulnovosad) <a href="https://twitter.com/paulnovosad/status/1056922582795075584?ref_src=twsrc%5Etfw">October 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## texdoc
 
-1. Numbered
-2. List
+[Package page](http://repec.sowi.unibe.ch/stata/texdoc/)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Manual methods
 
-### Jekyll Themes
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">💾Stata Tutorial💾<br><br>In case it’s useful, here’s a way to write LaTeX table code within Stata and export to .tex<br><br>I learned this from <a href="https://twitter.com/sacksdaniel?ref_src=twsrc%5Etfw">@sacksdaniel</a><br><br>\begin{🤓}</p>&mdash; Damon Jones (@nomadj1s) <a href="https://twitter.com/nomadj1s/status/1051112991393964032?ref_src=twsrc%5Etfw">October 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lukestein/stata-latex-workflows/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I do the same as <a href="https://twitter.com/nomadj1s?ref_src=twsrc%5Etfw">@nomadj1s</a> , Scott (for most tables). Here&#39;s an example gist of how I do it (slightly different, although I like <a href="https://twitter.com/nomadj1s?ref_src=twsrc%5Etfw">@nomadj1s</a> &#39;s workflow of saving the coefficients: <a href="https://t.co/U0lvZnM2BQ">https://t.co/U0lvZnM2BQ</a></p>&mdash; Paul Goldsmith-Pinkham (@paulgp) <a href="https://twitter.com/paulgp/status/1051132485050949633?ref_src=twsrc%5Etfw">October 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
