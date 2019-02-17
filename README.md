@@ -28,7 +28,9 @@ Regression results are saved as Stata datasets before being exported to tex
 
 
 
-### `tabout` (for descriptive statistics)
+### `tabout`
+
+For descriptive statistics and tabulations, not regression results
 
 - Install using `ssc install tabout, replace`
 - [Package page](http://tabout.net.au/)
