@@ -20,7 +20,7 @@ These packages generate tex files (and perhaps other formats) with customization
 
 ### `estout`/`esttab`
 
-[Package page](http://repec.sowi.unibe.ch/stata/estout/)
+> [Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
 - Install using `ssc install estout, replace`
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
@@ -35,7 +35,7 @@ These packages generate tex files (and perhaps other formats) with customization
 
 ### `outreg2`
 
-[Package page](http://repec.org/bocode/o/outreg2.html)
+> [Package page](http://repec.org/bocode/o/outreg2.html)
 
 - Install using `ssc install outreg2, replace`
 - Supercedes older `outreg` package
@@ -44,7 +44,7 @@ These packages generate tex files (and perhaps other formats) with customization
 
 ### `regsave`/`texsave`
 
-Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
+> Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
 
 Regression results are saved as Stata datasets before being exported to tex
 
@@ -55,7 +55,7 @@ Regression results are saved as Stata datasets before being exported to tex
 
 ### `tabout`
 
-[Package page](http://tabout.net.au/)
+> [Package page](http://tabout.net.au/)
 
 For descriptive statistics and tabulations, not regression results
 
@@ -74,7 +74,7 @@ These packages typically fill in a manually created tex template with calculated
 
 ### `json-this`/`coeftable`
 
-Package pages: [json-this](https://github.com/gn0/json-this) and [coeftable](https://github.com/gn0/coeftable)
+> Package pages: [json-this](https://github.com/gn0/json-this) and [coeftable](https://github.com/gn0/coeftable)
 
 Calculated values are saved as json and then inserted into an external tex template
 
@@ -84,7 +84,7 @@ Calculated values are saved as json and then inserted into an external tex templ
 
 ### `stata-tex`
 
-[Package page](https://github.com/paulnov/stata-tex)
+> [Package page](https://github.com/paulnov/stata-tex)
 
 Calculated values are saved as csv and then inserted into an external tex template
 
@@ -95,7 +95,7 @@ Calculated values are saved as csv and then inserted into an external tex templa
 
 ### `texdoc`
 
-[Package page](http://repec.sowi.unibe.ch/stata/texdoc/)
+> [Package page](http://repec.sowi.unibe.ch/stata/texdoc/)
 
 Calculated values are inserted directly into a tex template included in the do file
 
@@ -107,7 +107,7 @@ Calculated values are inserted directly into a tex template included in the do f
 
 ### `write_mats`
 
-[Package page](https://github.com/alemartinello/write_mats)
+> [Package page](https://github.com/alemartinello/write_mats)
 
 Calculated values are saved as `.ster` files, desired values are arranged as a Stata matrix, and then exported as tex
 
@@ -118,7 +118,7 @@ Calculated values are saved as `.ster` files, desired values are arranged as a S
 
 ### `listtab`
 
-[Package page](http://fmwww.bc.edu/RePEc/bocode/l/listtab.html)
+> [Package page](http://fmwww.bc.edu/RePEc/bocode/l/listtab.html)
 
 Tables are set up as a Stata dataset and then exported as tex
 
