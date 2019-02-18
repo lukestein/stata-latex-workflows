@@ -1,5 +1,9 @@
 # Stata/LaTeX workflow gallery
 
+[This site](../) describes variety of packages for programmatically generating LaTeX output using Stata. Examples are included in many packages' documentation; this page provides additional examples with code fragments.
+
+
+
 ## `estout`/`esttab`
 
 ### Interactions, checkmarks, test statistics
@@ -139,3 +143,11 @@ tabout ${ADCHARS} type using ${OUTPATH}adchars.tex, c(freq col) f(0 1) ///
 ![Table A2 from Doleac and Stein (2013)](images/doleacstein_ta2.png "Sample table")
 
 From [Doleac and Stein (2013)](http://onlinelibrary.wiley.com/doi/10.1111/ecoj.12082/abstract)
+
+
+
+## Note
+
+I created this page in response to Twitter discussions suggesting there’s interest in learning more about the wide range of techniques researchers use to work with Stata and LaTeX. I also needed to learn more about how to use github (where this page is hosted).
+
+Please feel free to suggest additions, either by submitting pull requests to the github respository (if you know how to do so), or by [contacting me directly](http://lukestein.com/).
