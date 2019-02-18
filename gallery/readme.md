@@ -2,11 +2,11 @@
 
 ## `estout`/`esttab`
 
-### Interactions, checkmarks, test statistic
+### Interactions, checkmarks, test statistics
 
 By [Luke Stein](http://lukestein.com)
 
-![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.jpeg "Sample table")
+![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.png "Sample table")
 
 <details>
 <summary>Stata code</summary>
@@ -39,6 +39,38 @@ drop(frac 1.after  1.empconc50 1.lowsectorvc 1.highcap) ///
 indicate("Annual state-level controls = lnpop lnpercap lnvc chHPI"   "State FE = _cons" "Quarterly FE = *.yq" "Industry FE = *.industry", labels("\checkmark" "")) ///
 stats(N sum_afterfrac_p, labels("Observations" "\$p\$-val: \$\beta_{\text{Aft}\times\text{Frac}} + \beta_{\text{\ldots industry}\times\text{Aft}\times\text{Frac}} = 0 \$")) ///
 label nobaselevels interaction("\$\times\$") substitute("=1" "") nonotes se star(* 0.10 ** 0.05 *** 0.01)
+~~~
+
+</details>
+
+
+### Summary statistics
+
+By [Luke Stein](http://lukestein.com)
+
+![Table 2a from Lindsey and Stein (2019 WP)](images/lindseystein_t2a.png "Sample table")
+
+<details>
+<summary>Stata code</summary>
+
+~~~
+gen t_entry_norm1 = entry_norm1 * 100
+label var t_entry_norm1	"Firm entry rate (\%)"
+
+gen t_frac = frac * 100
+label var t_frac	"Frac (\%)"
+
+gen t_chHPI = chHPI * 100
+label var t_chHPI	"House price index change (\%)"
+
+eststo clear
+eststo: quietly estpost summarize	t_entry_norm1 ///
+									t_frac lnpop lnpercap lnvc t_chHPI ///
+								if ${SAMPLEIF} & (age_buckets == 1) & (pa > 0), detail
+
+esttab using "${OUTPATH}summstat_bds_sy.tex", replace ///
+	cells("mean(fmt(2)) sd(fmt(2)) p50(fmt(2)) p25(fmt(2)) p75(fmt(2))") label booktab nonumber nomtitles
+eststo clear
 ~~~
 
 </details>
