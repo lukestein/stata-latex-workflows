@@ -132,7 +132,9 @@ From [Doleac and Stein (2013)](http://onlinelibrary.wiley.com/doi/10.1111/ecoj.1
 <summary>Stata code</summary>
 
 ~~~
+global ADCHARS			"highquality price"
 label var highquality "Ad.\ quality"
+
 tabout ${ADCHARS} type using ${OUTPATH}adchars.tex, c(freq col) f(0 1) ///
 	cl1(2-11) cl2(2-3 4-5 6-7 8-9 10-11) topstr(Advertisement Characteristics\label{tab:adchars}|\textwidth) ///
 	replace style(tex) bt font(bold) topf(top.tex) botf(bot.tex)
