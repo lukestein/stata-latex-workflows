@@ -39,7 +39,7 @@ These packages generate tex files (and perhaps other formats) with customization
 > [Package page](http://repec.org/bocode/o/outreg2.html)
 
 - Install using `ssc install outreg2, replace`
-- Supercedes older `outreg` package
+- Supercedes older `outreg` [package](https://econpapers.repec.org/software/bocbocode/s375201.htm)
 
 
 
@@ -91,7 +91,7 @@ Calculated values are saved as Stata datasets and then exported as tex
 
 - Install using `ssc install regsave, replace` and `ssc install texsave, replace`
 - Latest (developer) builds can be installed manually from github package pages ([regsave](https://github.com/reifjulian/regsave) and [texsave](https://github.com/reifjulian/texsave))
-- `sortobs` [package](https://github.com/reifjulian/sortobs) can help with ordering variables for tex output 
+- `sortobs` [package](https://github.com/reifjulian/sortobs) can help with ordering variables for tex output
 - [Slides with examples](https://www.stata.com/meeting/boston10/boston10_reif.pdf) by [Julian Reif](http://julianreif.com/)
 
 
@@ -127,7 +127,7 @@ Tables are set up as a Stata dataset and then exported as tex
 
 - Install using `ssc install listtab, replace`
 - [Stata Journal article](https://www.stata-journal.com/sjpdf.html?articlenum=st0254) by [Roger Newson](http://www.rogernewsonresources.org.uk/)
-- Supercedes older `listtex` package
+- Supercedes older `listtex` [package](https://ideas.repec.org/c/boc/bocode/s423201.html)
 
 
 
