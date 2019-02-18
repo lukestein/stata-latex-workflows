@@ -41,7 +41,7 @@ label nobaselevels interaction("\$\times\$") substitute("=1" "") nonotes se star
 
 ![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.png "Sample table")
 
-By [Luke Stein](http://lukestein.com)
+From [Lindsey and Stein (2019 WP)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939994)
 
 
 
@@ -77,7 +77,7 @@ eststo clear
 
 ![Table 2a from Lindsey and Stein (2019 WP)](images/lindseystein_t2a.png "Sample table")
 
-By [Luke Stein](http://lukestein.com)
+From [Lindsey and Stein (2019 WP)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939994)
 
 
 
@@ -114,7 +114,7 @@ esttab using "${OUTPATH}numberresponsesw.tex", ///
 
 ![Table 4 from Doleac and Stein (2013)](images/doleacstein_t4.png "Sample table")
 
-By [Luke Stein](http://lukestein.com)
+From [Doleac and Stein (2013)](http://onlinelibrary.wiley.com/doi/10.1111/ecoj.12082/abstract)
 
 
 
@@ -138,4 +138,4 @@ tabout ${ADCHARS} type using ${OUTPATH}adchars.tex, c(freq col) f(0 1) ///
 
 ![Table A2 from Doleac and Stein (2013)](images/doleacstein_ta2.png "Sample table")
 
-By [Luke Stein](http://lukestein.com)
+From [Doleac and Stein (2013)](http://onlinelibrary.wiley.com/doi/10.1111/ecoj.12082/abstract)
