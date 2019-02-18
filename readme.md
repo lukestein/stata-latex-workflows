@@ -40,6 +40,7 @@ These packages generate tex files (and perhaps other formats) with customization
 
 - Install using `ssc install outreg2, replace`
 - Supercedes older `outreg` [package](https://econpapers.repec.org/software/bocbocode/s375201.htm)
+- [Using outreg2 to report regression output, descriptive statistics, frequencies and basic crosstabulations](https://dss.princeton.edu/training/Outreg2.pdf) from Princeton DSS
 
 
 
@@ -50,6 +51,7 @@ These packages generate tex files (and perhaps other formats) with customization
 For descriptive statistics and tabulations, not regression results
 
 - Install using `ssc install tabout, replace`
+- [Slides with examples](https://www.stata.com/meeting/oceania16/slides/watson-oceania16.pdf) by [Ian Watson](http://ianwatson.com.au/)
 
 
 
