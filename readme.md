@@ -1,10 +1,20 @@
 # Packages for generating LaTeX output from Stata code
 
+A variety of packages (and manual techniques) are available for generating LaTeX output programmatically from Stata.
+
+Generally, automated approaches such as `estout`/`esttab` make it easier to quickly generate nearly-production-ready output, but it can be difficult (if not impossible) to implement significant customization. (That is, costs may be convex.) Automated approaches may also fit better with interactive/exploratory analysis, since attractively formatted output can also be displayed as Stata output or exported as simple text or csv files.
+
+Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually created code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.) These approaches sometimes involve saving calculated values in an external file before generating LaTeX output; while slightly more complicated, separating analysis from table generation has real advantages. For example, saving calculated values
+- Allows restructured tables to be generated without re-running estimation commands;
+- Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
+- Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
+- Works well with version control.
+
 
 
 ## Automated table creation
 
-These packages generate tex files (and perhaps other formats) with customization via Stata command options
+These packages generate tex files (and perhaps other formats) with customization via Stata command options.
 
 
 
@@ -53,9 +63,22 @@ For descriptive statistics and tabulations, not regression results
 
 
 
+
+
+
 ## Semi-automated table creation
 
-These packages typically fill in a manually created tex template with calculated values
+These packages typically fill in a manually created tex template with calculated values.
+
+
+
+### `json-this`/`coeftable`
+
+Package pages: [json-this](https://github.com/gn0/json-this) and [coeftable](https://github.com/gn0/coeftable)
+
+Calculated values are saved as json and then inserted into an external tex template
+
+- Install manually from github pages (requires Python)
 
 
 
@@ -79,16 +102,6 @@ Calculated values are inserted directly into a tex template included in the do f
 - Install using `ssc install texdoc, replace`
 - [Slides with examples](https://www.stata.com/meeting/switzerland16/slides/jann-switzerland16.pdf) by [Ben Jann](http://www.soz.unibe.ch/about_us/people/prof_dr_jann_ben/index_eng.html)
 - [Example Twitter thread](https://twitter.com/maibennett/status/1051145477922717696) by Magdalena Bennett
-
-
-
-### `json-this`/`coeftable`
-
-Package pages: [json-this](https://github.com/gn0/json-this) and [coeftable](https://github.com/gn0/coeftable)
-
-Calculated values are saved as json and then inserted into an external tex template
-
-- Install manually from github pages
 
 
 
