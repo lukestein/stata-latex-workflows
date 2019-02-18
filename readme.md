@@ -1,10 +1,10 @@
 # Packages for generating LaTeX output from Stata code
 
-A variety of packages (and manual techniques) are available for generating LaTeX output programmatically from Stata.
+A variety of packages (and manual techniques) are available for programmatically generating LaTeX output using Stata.
 
-Generally, automated approaches such as `estout`/`esttab` make it easier to quickly generate nearly-production-ready output, but it can be difficult (if not impossible) to implement significant customization. (That is, costs may be convex.) Automated approaches may also fit better with interactive/exploratory analysis, since attractively formatted output can also be displayed as Stata output or exported as simple text or csv files.
+Generally, more automated approaches such as `estout`/`esttab` make it easy to quickly generate nearly-production-ready output, but make it more difficult (if not impossible) to implement significant customization. (That is, costs may be convex.) Automated approaches may also work best with interactive and exploratory analysis, since attractively formatted results can also be displayed as Stata output or exported as simple text or csv files.
 
-Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually created code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.) These approaches sometimes involve saving calculated values in an external file before generating LaTeX output; while slightly more complicated, separating analysis from table generation has real advantages. For example, saving calculated values
+Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually creating LaTeX code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.) These approaches can involve saving calculated values in an external file before generating LaTeX output; while slightly more complicated, this separation of analysis from table generation has real advantages. For example, saving calculated values
 - Allows restructured tables to be generated without re-running estimation commands;
 - Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
 - Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
