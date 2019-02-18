@@ -9,7 +9,7 @@
 <details>
 <summary>Stata code</summary>
 
-~~~ stata
+~~~
 eststo  clear
 eststo: areg empend_normsqi               after##c.frac lnpop lnpercap lnvc chHPI i.yq i.industry [weight=pa]  if ${SAMPLEIF} & age_buckets == 1, absorb(state) cluster(state)
 
