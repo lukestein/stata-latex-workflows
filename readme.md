@@ -26,7 +26,7 @@ These packages generate tex files (and perhaps other formats) with customization
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
 - [Creating Publication-Quality Tables in Stata](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm) from University of Wisconsin SSCC
 - [Regression Tables That Look Like Those in Journal Articles](https://stats.idre.ucla.edu/stata/faq/how-can-i-use-estout-to-make-regression-tables-that-look-like-those-in-journal-articles/) from UCLA IDRE
-- [Automated Table generation in Stata and integration into LaTeX](https://www.jwe.cc/2012/03/stata-latex-tables-estout/) (parts [2](https://www.jwe.cc/2012/08/latex-and-stata-integration-solving-some-problems/) and [3](https://www.jwe.cc/2012/08/latex-stata-design/)) by [Jörg Weber](https://www.jwe.cc/)
+- [Automated Table generation in Stata and integration into LaTeX](https://www.jwe.cc/2012/03/stata-latex-tables-estout/) (blog post; continued in parts [2](https://www.jwe.cc/2012/08/latex-and-stata-integration-solving-some-problems/) and [3](https://www.jwe.cc/2012/08/latex-stata-design/)) by [Jörg Weber](https://www.jwe.cc/)
 - [Customization example using prehead and postfoot](http://www.eyalfrank.com/code-riffs-stata-and-regression-tables/) by [Eyal Frank](http://www.eyalfrank.com/)
 - [Stata Journal article](https://www.stata-journal.com/sjpdf.html?articlenum=st0085) by [Ben Jann](http://www.soz.unibe.ch/about_us/people/prof_dr_jann_ben/index_eng.html)
 
