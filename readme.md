@@ -32,10 +32,11 @@ These packages generate tex files (and perhaps other formats) with customization
 
 ### `regsave`/`texsave`
 
+Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
+
 Regression results are saved as Stata datasets before being exported to tex
 
 - Install using `ssc install regsave, replace` and `ssc install texsave, replace`
-- Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
 - [Slides with examples](https://www.stata.com/meeting/boston10/boston10_reif.pdf) by [Julian Reif](http://julianreif.com/)
 
 
