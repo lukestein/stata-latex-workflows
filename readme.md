@@ -1,5 +1,7 @@
 # Packages for generating LaTeX output from Stata code
 
+
+
 ## Automated table creation
 
 These packages generate tex files (and perhaps other formats) with customization via Stata command options
@@ -118,3 +120,4 @@ Tables are set up as a Stata dataset and then exported as tex
 - Generate tex code in string variables and export using `outsheet` (per [Damon Jones' Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032))
 - Write tex code directly using `file write` (per [Paul Goldsmith-Pinkham's example](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f))
 - Convert regression output from Stata log files to tex using `extract-from-stata` ([package page](https://github.com/gn0/extract-from-stata))
+- Use r instead of Stata (perhaps with the `stargazer` [package](https://CRAN.R-project.org/package=stargazer) for LaTeX output)
