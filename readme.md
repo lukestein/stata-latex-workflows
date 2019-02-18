@@ -91,7 +91,7 @@ Calculated values are saved as Stata datasets and then exported as tex
 
 - Install using `ssc install regsave, replace` and `ssc install texsave, replace`
 - Latest (developer) builds can be installed manually from github package pages ([regsave](https://github.com/reifjulian/regsave) and [texsave](https://github.com/reifjulian/texsave))
-- [sortobs package](https://github.com/reifjulian/sortobs) can help with ordering variables for tex output 
+- `sortobs` [package](https://github.com/reifjulian/sortobs) can help with ordering variables for tex output 
 - [Slides with examples](https://www.stata.com/meeting/boston10/boston10_reif.pdf) by [Julian Reif](http://julianreif.com/)
 
 
