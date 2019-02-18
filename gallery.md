@@ -2,7 +2,7 @@
 
 ## `estout`/`esttab`
 
-![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6 "Sample table")
+![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.jpeg "Sample table")
 
 ```
 eststo  clear
