@@ -95,6 +95,7 @@ Tables are set up as Stata datasets (perhaps with `preserve`/`restore`) and then
 
 
 
-## Other manual methods
+## Other methods
 - Export manual tex code from string variables using `outsheet` (per [Damon Jones' Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032); now deprecated in favor of texdoc?)
 - Write manual tex code using `file write` (per [Paul Goldsmith-Pinkham's example](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f))
+- Convert regression output from Stata log files to tex using `extract-from-stata` ([package page](https://github.com/gn0/extract-from-stata))
