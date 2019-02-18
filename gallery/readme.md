@@ -78,3 +78,64 @@ eststo clear
 ![Table 2a from Lindsey and Stein (2019 WP)](images/lindseystein_t2a.png "Sample table")
 
 By [Luke Stein](http://lukestein.com)
+
+
+
+
+
+### Summary statistics with added column
+
+<details>
+<summary>Stata code</summary>
+
+~~~
+label var responses		"Responses"
+label var scams			"Scams"
+label var nonscams		"Non-scams"
+label var offers		"Offers"
+
+
+estpost tabstat anyresponse anyscam anynonscam anyoffer [aw = stateweight], statistics(mean) columns(statistics)
+matrix anys = e(mean)
+matrix colnames anys = responses scams nonscams offers	// Get column in same rows as responses scams nonscams offers
+matrix rownames anys = anys
+
+eststo clear
+estpost tabstat responses scams nonscams offers [aw = stateweight], statistics(mean sd p25 p50 p75 p95 max count) columns(statistics)
+
+estadd matrix anys
+
+esttab using "${OUTPATH}numberresponsesw.tex", ///
+	cells("mean(fmt(a2) label(Mean)) sd(fmt(a2) label(Std.\ Dev.)) p25(fmt(a2) label(25\%)) p50(fmt(a2) label(50\%)) p75(fmt(a2) label(75\%))  p95(fmt(a2) label(95\%)) max(fmt(a2) label(Max.)) anys(fmt(a2) label(Frac.\ $>0$))") ///
+	nostar nonumbers nomtitle label booktabs width(38em) replace
+~~~
+
+</details>
+
+![Table 4 from Doleac and Stein (2013)](images/doleacstein_t4.png "Sample table")
+
+By [Luke Stein](http://lukestein.com)
+
+
+
+
+## `tabout`
+
+
+### Two-way crosstabulation with percentages
+
+<details>
+<summary>Stata code</summary>
+
+~~~
+label var highquality "Ad.\ quality"
+tabout ${ADCHARS} type using ${OUTPATH}adchars.tex, c(freq col) f(0 1) ///
+	cl1(2-11) cl2(2-3 4-5 6-7 8-9 10-11) topstr(Advertisement Characteristics\label{tab:adchars}|\textwidth) ///
+	replace style(tex) bt font(bold) topf(top.tex) botf(bot.tex)
+~~~
+
+</details>
+
+![Table A2 from Doleac and Stein (2013)](images/doleacstein_ta2.png "Sample table")
+
+By [Luke Stein](http://lukestein.com)
