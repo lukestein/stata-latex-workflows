@@ -150,6 +150,6 @@ From [Doleac and Stein (2013)](http://onlinelibrary.wiley.com/doi/10.1111/ecoj.1
 
 ## Note
 
-I created this page in response to Twitter discussions suggesting there’s interest in learning more about the wide range of techniques researchers use to work with Stata and LaTeX. I also needed to learn more about how to use github (where this page is hosted).
+I created this page in response to Twitter discussions suggesting there’s interest in learning more about the wide range of techniques researchers use to work with Stata and LaTeX. I also wanted to learn more about how to use github (where this page is hosted).
 
 Please feel free to suggest additions, either by submitting pull requests to the github respository (if you know how to do so), or by [contacting me directly](http://lukestein.com/).

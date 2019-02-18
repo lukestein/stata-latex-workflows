@@ -8,7 +8,7 @@ Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` genera
 - Allows restructured tables to be generated without re-running estimation commands;
 - Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
 - Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
-- Allows calculated values to be accessed by other scripts (e.g., for plotting)
+- Allows calculated values to be accessed by other scripts (e.g., for plotting);
 - Works well with version control.
 
 
@@ -144,6 +144,6 @@ Tables are set up as a Stata dataset and then exported as tex
 
 ## Note
 
-I created this page in response to Twitter discussions suggesting there’s interest in learning more about the wide range of techniques researchers use to work with Stata and LaTeX. I also needed to learn more about how to use github (where this page is hosted).
+I created this page in response to Twitter discussions suggesting there’s interest in learning more about the wide range of techniques researchers use to work with Stata and LaTeX. I also wanted to learn more about how to use github (where this page is hosted).
 
 I added the resources I was aware of, and quickly characterized them as best I could. Please feel free to suggest additions or updates, either by submitting pull requests to the github respository (if you know how to do so), or by [contacting me directly](http://lukestein.com/).
