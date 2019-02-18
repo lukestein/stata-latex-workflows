@@ -7,9 +7,9 @@
 ![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.jpeg "Sample table")
 
 <details>
-  <summary>Stata code</summary>
-	
-```Stata
+<summary>Stata code</summary>
+
+~~~ stata
 eststo  clear
 eststo: areg empend_normsqi               after##c.frac lnpop lnpercap lnvc chHPI i.yq i.industry [weight=pa]  if ${SAMPLEIF} & age_buckets == 1, absorb(state) cluster(state)
 
@@ -37,6 +37,6 @@ drop(frac 1.after  1.empconc50 1.lowsectorvc 1.highcap) ///
 indicate("Annual state-level controls = lnpop lnpercap lnvc chHPI"   "State FE = _cons" "Quarterly FE = *.yq" "Industry FE = *.industry", labels("\checkmark" "")) ///
 stats(N sum_afterfrac_p, labels("Observations" "\$p\$-val: \$\beta_{\text{Aft}\times\text{Frac}} + \beta_{\text{\ldots industry}\times\text{Aft}\times\text{Frac}} = 0 \$")) ///
 label nobaselevels interaction("\$\times\$") substitute("=1" "") nonotes se star(* 0.10 ** 0.05 *** 0.01)
-```
+~~~
 
 </details>
