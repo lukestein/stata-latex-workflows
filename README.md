@@ -15,6 +15,8 @@ These packages generate tex files (and perhaps other formats) with customization
 
 - Install using `ssc install outreg2, replace`
 - [Package page](http://repec.org/bocode/o/outreg2.html)
+- Supercedes older `outreg` package
+
 
 
 
@@ -41,7 +43,7 @@ For descriptive statistics and tabulations, not regression results
 
 ## Semi-automated table creation
 
-These packages fill in manually created tex shell with calculated values
+These packages fill in manually created tex shells with calculated values
 
 
 ### `stata-tex`
@@ -84,13 +86,14 @@ Regressions are saved as `.ster` files, desired values are arranged as Stata mat
 
 
 
-### `listtab` (supercedes `listtex`)
+### `listtab`
 
 Tables are set up as Stata datasets (perhaps with `preserve`/`restore`) and then exported using tex shell included in do file
 
 - Install using `ssc install listtab, replace`
 - [Package page](http://fmwww.bc.edu/RePEc/bocode/l/listtab.html)
 - [Stata Journal article](https://www.stata-journal.com/sjpdf.html?articlenum=st0254) by [Roger Newson](http://www.rogernewsonresources.org.uk/)
+- Supercedes older `listtex` package
 
 
 
