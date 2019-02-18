@@ -65,6 +65,12 @@ Calculated values are inserted into tex shell included in do file
 
 
 
+### `json-this`/`coeftable`
+
+Calculated values (select regression commands only) are saves as JSON files, and then inserted into an external tex shell file
+
+- Install manually from github pages
+- Package pages: [json-this](https://github.com/gn0/json-this) and [coeftable](https://github.com/gn0/coeftable)
 
 
 
@@ -88,8 +94,7 @@ Tables are set up as Stata datasets (perhaps with `preserve`/`restore`) and then
 
 
 
+
 ## Other manual methods
 - Export manual tex code from string variables using `outsheet` (per [Damon Jones' Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032); now deprecated in favor of texdoc?)
 - Write manual tex code using `file write` (per [Paul Goldsmith-Pinkham's example](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f))
-
-
