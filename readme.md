@@ -8,6 +8,7 @@ Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` genera
 - Allows restructured tables to be generated without re-running estimation commands;
 - Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
 - Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
+- Allows calculated values to be accessed by other scripts (e.g., for plotting)
 - Works well with version control.
 
 
@@ -39,17 +40,6 @@ These packages generate tex files (and perhaps other formats) with customization
 
 - Install using `ssc install outreg2, replace`
 - Supercedes older `outreg` package
-
-
-
-### `regsave`/`texsave`
-
-> Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
-
-Regression results are saved as Stata datasets before being exported to tex
-
-- Install using `ssc install regsave, replace` and `ssc install texsave, replace`
-- [Slides with examples](https://www.stata.com/meeting/boston10/boston10_reif.pdf) by [Julian Reif](http://julianreif.com/)
 
 
 
@@ -90,6 +80,19 @@ Calculated values are saved as csv and then inserted into an external tex templa
 
 - Install manually from github page (requires Python)
 - [Explanatory Twitter thread](https://twitter.com/paulnovosad/status/1056922582795075584) by [Paul Novosad](http://www.dartmouth.edu/~novosad/)
+
+
+
+### `regsave`/`texsave`
+
+> Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
+
+Calculated values are saved as Stata datasets and then exported as tex
+
+- Install using `ssc install regsave, replace` and `ssc install texsave, replace`
+- Latest (developer) builds can be installed manually from github package pages ([regsave](https://github.com/reifjulian/regsave) and [texsave](https://github.com/reifjulian/texsave))
+- [sortobs package](https://github.com/reifjulian/sortobs) can help with ordering variables for tex output 
+- [Slides with examples](https://www.stata.com/meeting/boston10/boston10_reif.pdf) by [Julian Reif](http://julianreif.com/)
 
 
 
