@@ -2,7 +2,9 @@
 
 ## `estout`/`esttab`
 
-### From Luke Stein
+### Interactions, checkmarks, test statistic
+
+By [Luke Stein](http://lukestein.com)
 
 ![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.jpeg "Sample table")
 
