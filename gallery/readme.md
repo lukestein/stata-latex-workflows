@@ -4,10 +4,6 @@
 
 ### Interactions, checkmarks, test statistics
 
-By [Luke Stein](http://lukestein.com)
-
-![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.png "Sample table")
-
 <details>
 <summary>Stata code</summary>
 
@@ -43,12 +39,16 @@ label nobaselevels interaction("\$\times\$") substitute("=1" "") nonotes se star
 
 </details>
 
-
-### Summary statistics
+![Table 6 from Lindsey and Stein (2019 WP)](images/lindseystein_t6.png "Sample table")
 
 By [Luke Stein](http://lukestein.com)
 
-![Table 2a from Lindsey and Stein (2019 WP)](images/lindseystein_t2a.png "Sample table")
+
+
+
+
+
+### Summary statistics
 
 <details>
 <summary>Stata code</summary>
@@ -74,3 +74,7 @@ eststo clear
 ~~~
 
 </details>
+
+![Table 2a from Lindsey and Stein (2019 WP)](images/lindseystein_t2a.png "Sample table")
+
+By [Luke Stein](http://lukestein.com)
