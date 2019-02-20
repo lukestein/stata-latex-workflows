@@ -141,6 +141,14 @@ Tables are set up as a Stata dataset and then exported as tex
 
 
 
+## "Dynamic Document"-based approaches
+
+These approaches are usually used to more fully integrate analysis into document creation, but can also be used to generate LaTeX output (perhaps requiring a tool like (pandoc)[https://pandoc.org/] to convert from markdown or HTML to LaTeX).
+
+- Stata's built-in `dyntext` (command)[https://www.stata.com/help.cgi?dyntext] (text, including tex source) or `dyndoc` (command)[https://www.stata.com/help.cgi?dyndoc] (markdown)
+- The `markstat` [package](https://data.princeton.edu/stata/markdown/) by [Germán Rodríguez](https://data.princeton.edu/)
+
+
 
 ## Other methods
 - Generate tex code in string variables and export using `outsheet` (per [Damon Jones' Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032))
