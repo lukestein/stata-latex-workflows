@@ -8,7 +8,7 @@ Generally, more automated approaches such as `estout`/`esttab` make it easy to q
 
 Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually creating LaTeX code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.)
 
-Semi-automated approaches often involve saving calculated values in an external file before generating LaTeX output. (This is also possible with automated approaches using Stata's `estimates save` command.) While slightly more complicated, this separation of analysis from table generation has real advantages. For example, saving calculated values
+Semi-automated approaches often involve saving calculated values in an external file before generating LaTeX output. (This is also possible with automated approaches using Stata’s `estimates save` command.) While slightly more complicated, this separation of analysis from table generation has real advantages. For example, saving calculated values
 - Allows restructured tables to be generated without re-running estimation commands;
 - Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
 - Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
@@ -28,8 +28,8 @@ These packages generate tex files (and perhaps other formats) with customization
 > [Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
 - Install using `ssc install estout, replace`
-- Several examples with code at [this site's (minimal) gallery page](./gallery/)
-- Estimation can be separated from table creation by saving estimates (as `.ster` files) using Stata's `estimates save` command; this supercedes using the older `estwrite` [package](http://fmwww.bc.edu/RePEc/bocode/e/estwrite.html)
+- Several examples with code at [this site’s (minimal) gallery page](./gallery/)
+- Estimation can be separated from table creation by saving estimates (as `.ster` files) using Stata’s `estimates save` command; this supercedes using the older `estwrite` [package](http://fmwww.bc.edu/RePEc/bocode/e/estwrite.html)
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
 - [Creating Publication-Quality Tables in Stata](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm) from University of Wisconsin SSCC
 - [Regression Tables That Look Like Those in Journal Articles](https://stats.idre.ucla.edu/stata/faq/how-can-i-use-estout-to-make-regression-tables-that-look-like-those-in-journal-articles/) from UCLA IDRE
@@ -57,7 +57,7 @@ These packages generate tex files (and perhaps other formats) with customization
 For descriptive statistics and tabulations, not regression results
 
 - Install using `ssc install tabout, replace`
-- Several examples with code at [this site's (minimal) gallery page](./gallery/)
+- Several examples with code at [this site’s (minimal) gallery page](./gallery/)
 - [Slides with examples](https://www.stata.com/meeting/oceania16/slides/watson-oceania16.pdf) by [Ian Watson](http://ianwatson.com.au/)
 
 
@@ -141,18 +141,18 @@ Tables are set up as a Stata dataset and then exported as tex
 
 
 
-## "Dynamic Document"-based approaches
+## “Dynamic Document”-based approaches
 
 These approaches are usually used to more fully integrate analysis into document creation, but can also be used to generate LaTeX output (perhaps requiring a tool like (pandoc)[https://pandoc.org/] to convert from markdown or HTML to LaTeX).
 
-- Stata's built-in `dyntext` (command)[https://www.stata.com/help.cgi?dyntext] (text, including tex source) or `dyndoc` (command)[https://www.stata.com/help.cgi?dyndoc] (markdown)
+- Stata’s built-in `dyntext` (command)[https://www.stata.com/help.cgi?dyntext] (text, including tex source) or `dyndoc` (command)[https://www.stata.com/help.cgi?dyndoc] (markdown)
 - The `markstat` [package](https://data.princeton.edu/stata/markdown/) by [Germán Rodríguez](https://data.princeton.edu/)
 
 
 
 ## Other methods
-- Generate tex code in string variables and export using `outsheet` (per [Damon Jones' Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032))
-- Write tex code directly using `file write` (per [Paul Goldsmith-Pinkham's example](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f))
+- Generate tex code in string variables and export using `outsheet` (per [Damon Jones’ Twitter thread](https://twitter.com/nomadj1s/status/1051112991393964032))
+- Write tex code directly using `file write` (per [Paul Goldsmith-Pinkham’s example](https://gist.github.com/paulgp/7e0c0ad9dee76c4ab8e475e1165d493f))
 - Convert regression output from Stata log files to tex using `extract-from-stata` ([package page](https://github.com/gn0/extract-from-stata))
 - Use r instead of Stata (perhaps with the `stargazer` [package](https://CRAN.R-project.org/package=stargazer) for LaTeX output)
 

@@ -1,6 +1,6 @@
 # Stata/LaTeX workflow gallery
 
-[The main page on this site](../) describes variety of packages for programmatically generating LaTeX output using Stata. Examples are included in many packages' documentation; this page provides additional examples with code fragments.
+[The main page on this site](../) describes variety of packages for programmatically generating LaTeX output using Stata. Examples are included in many packages’ documentation; this page provides additional examples with code fragments.
 
 This gallery is seeded with just a few examples. Please feel free to send yours, or (even better) to let me know that you would like to take over compiling this gallery!
 
