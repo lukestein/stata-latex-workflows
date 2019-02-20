@@ -8,8 +8,11 @@ This gallery is seeded with just a few examples. Please feel free to send yours,
 ## Graphs
 
 This page is focused on LaTeX tables, but several great Stata graph galleries are available elsewhere:
-- [World Bank Impact Evaluation Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/)
-- [StataCorp Visual Overview for Creating Graphs](https://www.stata.com/support/faqs/graphics/gph/stata-graphs/)
+- [Stata Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/), World Bank DIME
+- [Visual Overview for Creating Graphs](https://www.stata.com/support/faqs/graphics/gph/stata-graphs/), StataCorp
+- [NJC Stata Plots](https://stats.idre.ucla.edu/stata/faq/graph/njc-stata-plots/), UCLA IDRE
+- [Stata Graphics](https://www.surveydesign.com.au/tipsgraphs.html), Survey Design and Analysis Services
+
 
 ## `estout`/`esttab`
 
