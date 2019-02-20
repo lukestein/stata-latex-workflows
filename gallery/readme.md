@@ -7,6 +7,11 @@
 > (even better) to let me know that you would like to take over compiling this
 > gallery!
 
+## Graphs
+
+This page is focused on LaTeX tables, but several great Stata graph galleries are available elsewhere:
+- [World Bank Impact Evaluation Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/)
+- [Stata Visual overview for creating graphs](https://www.stata.com/support/faqs/graphics/gph/stata-graphs/)
 
 ## `estout`/`esttab`
 
