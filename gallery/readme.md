@@ -125,7 +125,7 @@ cap n estimates store tsls_`specname'
 
 ![Table from Cunningham Mixtape](images/cunningham_t1.png "Sample table")
 
-From ["Causal Inference: The Mixtape" by Scott Cunningham](http://scunning.com/mixtape.html)
+From ["Causal Inference: The Mixtape"](http://scunning.com/mixtape.html) by [Scott Cunningham](http://scunning.com/)
 
 
 
