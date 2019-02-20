@@ -1,0 +1,45 @@
+\begin{table}[htbp]\centering
+\scriptsize
+\caption{OLS and 2SLS regressions of Log Earnings on Schooling}
+\label{2sls_1}
+\begin{center}
+\begin{threeparttable}
+\begin{tabular}{l*{2}{c}}
+\toprule
+\multicolumn{1}{l}{\textbf{Dependent variable}}&
+\multicolumn{2}{c}{\textbf{Log wage}}\\
+\multicolumn{1}{c}{}&
+\multicolumn{1}{c}{OLS}&
+\multicolumn{1}{c}{2SLS}\\
+\midrule
+educ                &       0.071***&       0.124** \\
+                    &     (0.003)   &     (0.050)   \\
+exper               &       0.034***&       0.056***\\
+                    &     (0.002)   &     (0.020)   \\
+black               &      -0.166***&      -0.116** \\
+                    &     (0.018)   &     (0.051)   \\
+south               &      -0.132***&      -0.113***\\
+                    &     (0.015)   &     (0.023)   \\
+married             &      -0.036***&      -0.032***\\
+                    &     (0.003)   &     (0.005)   \\
+smsa                &       0.176***&       0.148***\\
+                    &     (0.015)   &     (0.031)   \\
+\\
+\midrule
+\multicolumn{1}{c}{First Stage Instrument}\\
+College in the county&               &       0.327***\\
+Robust standard error &               &       0.082   \\
+F statistic for IV in first stage&               &      15.767   \\
+Anderson-Rubin test &               &           .   \\
+N                   &       3,003   &       3,003   \\
+Mean Dependent Variable&       6.262   &       6.262   \\
+Std. Dev. Dependent Variable&       0.444   &       0.444   \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\tiny
+\item Standard errors in parenthesis. * p$<$0.10, ** p$<$0.05, *** p$<$0.01
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table}

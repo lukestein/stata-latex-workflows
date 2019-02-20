@@ -1,0 +1,45 @@
+\begin{table}[htbp]\centering
+\scriptsize
+\caption{OLS and 2SLS regressions of Log Quantity on Log Price with wave height instrument}
+\label{2sls_2}
+\begin{center}
+\begin{threeparttable}
+\begin{tabular}{l*{2}{c}}
+\toprule
+\multicolumn{1}{l}{\textbf{Dependent variable}}&
+\multicolumn{2}{c}{\textbf{Log quantity}}\\
+\multicolumn{1}{c}{}&
+\multicolumn{1}{c}{OLS}&
+\multicolumn{1}{c}{2SLS}\\
+\midrule
+lnp                 &      -0.549***&      -0.960** \\
+                    &     (0.184)   &     (0.406)   \\
+=1 if Monday        &      -0.318   &      -0.322   \\
+                    &     (0.227)   &     (0.225)   \\
+=1 if Tuesday       &      -0.684***&      -0.687***\\
+                    &     (0.224)   &     (0.221)   \\
+=1 if Wednesday     &      -0.535** &      -0.520** \\
+                    &     (0.221)   &     (0.219)   \\
+=1 if Thursday      &       0.068   &       0.106   \\
+                    &     (0.221)   &     (0.222)   \\
+time trend          &      -0.001   &      -0.003   \\
+                    &     (0.003)   &     (0.003)   \\
+\\
+\midrule
+\multicolumn{1}{c}{First Stage Instrument}\\
+Average wave height &               &       0.103***\\
+Robust standard error &               &       0.022   \\
+F statistic for IV in first stage&               &      22.638   \\
+Anderson-Rubin test &               &           .   \\
+N                   &          97   &          97   \\
+Mean Dependent Variable&       8.086   &       8.086   \\
+Std. Dev. Dependent Variable&       0.765   &       0.765   \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\tiny
+\item Standard errors in parenthesis. * p$<$0.10, ** p$<$0.05, *** p$<$0.01
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table}
