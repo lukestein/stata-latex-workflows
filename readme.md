@@ -24,6 +24,7 @@ These packages generate tex files (and perhaps other formats) with customization
 > [Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
 - Install using `ssc install estout, replace`
+- Several examples with code at [this site's (minimal) gallery page](./gallery/)
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
 - [Creating Publication-Quality Tables in Stata](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm) from University of Wisconsin SSCC
 - [Regression Tables That Look Like Those in Journal Articles](https://stats.idre.ucla.edu/stata/faq/how-can-i-use-estout-to-make-regression-tables-that-look-like-those-in-journal-articles/) from UCLA IDRE
@@ -51,6 +52,7 @@ These packages generate tex files (and perhaps other formats) with customization
 For descriptive statistics and tabulations, not regression results
 
 - Install using `ssc install tabout, replace`
+- Several examples with code at [this site's (minimal) gallery page](./gallery/)
 - [Slides with examples](https://www.stata.com/meeting/oceania16/slides/watson-oceania16.pdf) by [Ian Watson](http://ianwatson.com.au/)
 
 
