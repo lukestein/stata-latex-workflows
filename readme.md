@@ -4,7 +4,9 @@ A variety of packages (and manual techniques) are available for programmatically
 
 Generally, more automated approaches such as `estout`/`esttab` make it easy to quickly generate nearly-production-ready output, but make it more difficult (if not impossible) to implement significant customization. (That is, costs may be convex.) Automated approaches may also work best with interactive and exploratory analysis, since attractively formatted results can also be displayed as Stata output or exported as simple text or csv files.
 
-Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually creating LaTeX code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.) These approaches can involve saving calculated values in an external file before generating LaTeX output; while slightly more complicated, this separation of analysis from table generation has real advantages. For example, saving calculated values
+Semi-automated approaches such as `json-this`/`coeftable` and `stata-tex` generally require manually creating LaTeX code to generate even simple tables, but their output is fully customizable. (That is, costs may be concave.)
+
+Semi-automated approaches often involve saving calculated values in an external file before generating LaTeX output. (This is also possible with automated approaches using Stata's `estimates save` command.) While slightly more complicated, this separation of analysis from table generation has real advantages. For example, saving calculated values
 - Allows restructured tables to be generated without re-running estimation commands;
 - Makes it easy to generate identically-structured tables with different samples, variable definitions, etc.;
 - Allows easy generation of alternate table versions, such as for a paper vs. a presentation;
@@ -25,6 +27,7 @@ These packages generate tex files (and perhaps other formats) with customization
 
 - Install using `ssc install estout, replace`
 - Several examples with code at [this site's (minimal) gallery page](./gallery/)
+- Estimation can be separated from table creation by saving estimates (as `.ster` files) using Stata's `estimates save` command; this supercedes using the older `estwrite` [package](http://fmwww.bc.edu/RePEc/bocode/e/estwrite.html)
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
 - [Creating Publication-Quality Tables in Stata](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm) from University of Wisconsin SSCC
 - [Regression Tables That Look Like Those in Journal Articles](https://stats.idre.ucla.edu/stata/faq/how-can-i-use-estout-to-make-regression-tables-that-look-like-those-in-journal-articles/) from UCLA IDRE
