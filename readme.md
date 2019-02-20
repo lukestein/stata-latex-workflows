@@ -1,5 +1,7 @@
 # Packages for generating LaTeX output from Stata code
 
+> [Stata Table Gallery](./gallery/) (sample tables with code; contributions welcome!)
+
 A variety of packages (and manual techniques) are available for programmatically generating LaTeX output using Stata.
 
 Generally, more automated approaches such as `estout`/`esttab` make it easy to quickly generate nearly-production-ready output, but make it more difficult (if not impossible) to implement significant customization. (That is, costs may be convex.) Automated approaches may also work best with interactive and exploratory analysis, since attractively formatted results can also be displayed as Stata output or exported as simple text or csv files.
