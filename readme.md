@@ -135,6 +135,7 @@ Tables are set up as a Stata dataset and then exported as tex
 - Install using `ssc install listtab, replace`
 - [Stata Journal article](https://www.stata-journal.com/sjpdf.html?articlenum=st0254) by [Roger Newson](http://www.rogernewsonresources.org.uk/)
 - Supercedes older `listtex` [package](https://ideas.repec.org/c/boc/bocode/s423201.html)
+- `parmest` [package](http://fmwww.bc.edu/RePEc/bocode/p/parmest.html) can produce Stata datasets of estimated parameters
 
 
 
