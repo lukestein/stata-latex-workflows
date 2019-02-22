@@ -28,8 +28,9 @@ These packages generate tex files (and perhaps other formats) with customization
 > [Package page](http://repec.sowi.unibe.ch/stata/estout/)
 
 - Install using `ssc install estout, replace`
+- Relative to the documentation on the [package page](http://repec.sowi.unibe.ch/stata/estout/), descriptions of some options are easier to find in the [old documentation](http://repec.org/bocode/e/estout/documentation.html), including at the “[Advanced](http://repec.org/bocode/e/estout/advanced.html)” page
 - Several examples with code at [this site’s (minimal) gallery page](./gallery/)
-- Estimation can be separated from table creation by saving estimates (as `.ster` files) using Stata’s `estimates save` command; this supercedes using the older `estwrite` [package](http://fmwww.bc.edu/RePEc/bocode/e/estwrite.html)
+- Estimation can be separated from table creation by saving estimates (as `.ster` files) using Stata’s `estimates save` command; this supercedes the older `estwrite` [package](http://fmwww.bc.edu/RePEc/bocode/e/estwrite.html)
 - [Examples](http://repec.org/bocode/e/estout/examples.html) from RePEc documentation page (older?)
 - [Creating Publication-Quality Tables in Stata](https://www.ssc.wisc.edu/sscc/pubs/stata_tables.htm) from University of Wisconsin SSCC
 - [Regression Tables That Look Like Those in Journal Articles](https://stats.idre.ucla.edu/stata/faq/how-can-i-use-estout-to-make-regression-tables-that-look-like-those-in-journal-articles/) from UCLA IDRE
