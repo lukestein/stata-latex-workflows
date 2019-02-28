@@ -93,6 +93,18 @@ Calculated values are saved as csv and then inserted into an external tex templa
 
 
 
+### `texresults`
+
+> [Package page](https://ideas.repec.org/c/boc/bocode/s458334.html)
+
+Calculated values are saved as a set of tex macros
+
+- Install using `ssc install texresults, replace`
+- Latest builds can be installed manually from github [package page](https://github.com/acarril/texresults)
+- [Discussion with examples](https://acarril.github.io/posts/export-results-latex) by [Alvaro Carril](https://acarril.github.io/posts/export-results-latex)
+
+
+
 ### `regsave`/`texsave`
 
 > Package pages: [regsave](https://econpapers.repec.org/software/bocbocode/S456964.htm) and [texsave](https://econpapers.repec.org/software/bocbocode/S456974.htm)
