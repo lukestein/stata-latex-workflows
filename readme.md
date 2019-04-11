@@ -64,6 +64,28 @@ For descriptive statistics and tabulations, not regression results
 
 
 
+### `orth_out`
+
+> Package pages: [github](https://github.com/jjlong/orth_out), [RePEc](https://ideas.repec.org/c/boc/bocode/s457800.html)
+
+For summary statistics and orthogonality tables, not regression results
+
+- Install using `ssc install orth_out, replace`
+
+
+
+
+
+### `frmttable`
+
+"A programmer's command to write formatted Word or TeX tables from a matrix of statistics," `frmttable` is the command that underlies `outreg`, but can also be used directly to generate more customized output
+
+- [Help file](http://fmwww.bc.edu/RePEc/bocode/f/frmttable.html) from RePEc
+- [Slides with background](https://www.stata.com/meeting/germany13/abstracts/materials/de13_gallup.pdf) by [John Luke Gallup](https://www.pdx.edu/econ/john-luke-gallup)
+- [Stata Journal article](https://www.pdx.edu/econ/sites/www.pdx.edu.econ/files/frmttable_sj.pdf) by [John Luke Gallup](https://www.pdx.edu/econ/john-luke-gallup)
+
+
+
 
 
 ## Semi-automated table creation
